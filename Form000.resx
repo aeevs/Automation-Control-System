@@ -1,0 +1,88 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label5.Text" xml:space="preserve">
+    <value>    У вас в штате есть «N» пекарей, занимающихся производством пиццы, с разным опытом работы и «M» курьеров, занимающихся
+доставкой пиццы заказчику, один склад готовой продукции размера «T». 
+___________________________________________________________________________________________________________________________________________________
+    Производственный процесс выглядит следующим образом:
+</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value> поступает заказ на пиццу в общую очередь;
+ пекарь (нажимает на кнопку и) берет заказ в исполнение;
+ когда пицца готова, пекарь (нажимает на кнопку с готовностью пиццы и) пытается зарезервировать место на складе. 
+Если склад полностью заполнен, пекарь ожидает свободное место;
+ пекарь передает пиццу на склад и может продолжить работу;
+ курьер после очередного заказа обращается на склад и берет одну или несколько пицц в доставку,
+но не больше объема своего багажника. Если склад пуст, то ожидает появления готовых пицц;
+ после доставки очередной пиццы курьер отмечает что заказ выполнен;
+ при выполнении очередного действия, система выводит на стандартный вывод сообщение: [номер заказа], [состояние].
+доставкой пиццы заказчику, один склад готовой продукции размера «T». 
+___________________________________________________________________________________________________________________________________________________
+
+</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value> каждый день у поваров, которые готовили заказ(ы), увеличивается опыт;
+ если исполнение заказа было более ЗАДАННОГО времени, пицца отдается заказчику бесплатно;
+ в конце рабочей смены система автоматизации анализирует выполнение заказов и дает рекомендации владельцу
+{сводный расчёт, худший/лучший повар, худший/лучший курьер, заполнение склада}.</value>
+  </data>
+</root>
